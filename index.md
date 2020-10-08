@@ -41,3 +41,5 @@ As Kanye West said:
 
 ### Подзаголовок
 
+[Настройка сервера](server_setup)
+
