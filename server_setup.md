@@ -41,5 +41,5 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 
-###Установка образа 1с
+### Установка образа 1с
 psql -U postgres -d template1 -c "ALTER USER postgres PASSWORD 'password'"

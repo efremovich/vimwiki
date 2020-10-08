@@ -36,8 +36,8 @@ As Kanye West said:
 
 > the present is our past.
 
-* [X] Install Taskwiki !!! (2020-11-23 19:00)  #8a8a4133
-* [ ] Новая задача  #e6ce4a69
+- [X] Install Taskwiki !!! (2020-11-23 19:00)
+- [ ] Новая задача
 
 ### Подзаголовок
 
