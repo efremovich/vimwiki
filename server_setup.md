@@ -1,6 +1,6 @@
 # Подготовка сервера =
 ## Установка DE ==
-```
+```sh
 sudo apt-get install \
     xfce4 \
     xfce4-goodies \
@@ -20,12 +20,12 @@ sudo update-locale LANG=ru_RU.UTF-8
 ```
 
 ## Установка x2goServer
-```
+```sh
 sudo apt-get install x2goserver x2goserver-xsession
 ```
 
 ## Добавить пользователя ==
-```
+```sh
 sudo adduser efremov
 sudo gpasswd -a efremov sudo
 ```
@@ -43,3 +43,11 @@ sudo add-apt-repository \
 
 ### Установка образа 1с
 psql -U postgres -d template1 -c "ALTER USER postgres PASSWORD 'password'"
+
+### Ошибка /opt/1C/v8.3/x86_64/libstdc++.so.6 1с
+Нужно выполнить эти две команды
+```sh
+sudo mv /opt/1C/v8.3/x86_64/libstdc++.so.6 /opt/1C/v8.3/x86_64/libstdc++.so.6.orig
+sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24 /opt/1C/v8.3/x86_64/libstdc++.so.6
+```
+
