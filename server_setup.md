@@ -24,6 +24,11 @@ sudo update-locale LANG=ru_RU.UTF-8
 sudo apt-get install x2goserver x2goserver-xsession
 ```
 
+```go
+func main(){
+  fmt.Println()
+}
+```
 ## Добавить пользователя ==
 ```sh
 sudo adduser efremov
