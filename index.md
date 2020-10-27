@@ -22,3 +22,4 @@
 # [Топливные карты](fuelCards.md)
 
 ## [Автокард](task/autocard_task.md)
+## [Cars7](/task/cars7.md)
