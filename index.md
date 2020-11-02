@@ -23,3 +23,4 @@
 
 ## [Автокард](task/autocard_task.md)
 ## [Cars7](/task/cars7.md)
+## [Проверка загрузки транзакций](/checktr.md)
